@@ -1,3 +1,5 @@
-# Configuration
+# cpp-ip-polling
 
-`$ node configure_project.js`
+A simple server, client (sending) & client (polling) setup for sending IP data.
+
+

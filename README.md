@@ -18,6 +18,12 @@ A simple server, client (sending) & client (polling) setup for sending IP data.
         - Every client should have its own set of keys
         - The signature of the keys should be used for identification of what purpose the client has
 
+## Restrictions
+
+- I want to avoid any high-level libraries such as NaCl as I intend to learn about cryptography
+- I want to avoid HTTP(s)
+- I will write the program in C++ so I can easily reuse this project for embedded systems
+
 ## Libraries
 
 - OpenSSL

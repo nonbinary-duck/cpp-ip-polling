@@ -14,9 +14,9 @@ A simple server, client (sending) & client (polling) setup for sending IP data.
 - There also is a server
     - This server must have a static IP and port open to receive and send data
     - This server must be secure and only communicate with clients (receiving and sending)
-        - Probably using asymmetric cryptography (Kalyna? never used it before, seems interesting)
+        - Using symmetric cryptography (probably just AES) with keys distributed in advance
         - Every client should have its own set of keys
-        - The signature of the keys should be used for identification of what purpose the client has
+        - Distribute an indexed identifier header for which key to use (not a hash or anything that you can use to get the key)
 
 ## Restrictions
 
